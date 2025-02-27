@@ -1,0 +1,264 @@
+[
+  {
+    "_id": "1",
+    "brand_name": "Daraz",
+    "rating": 4.7,
+    "description": "Daraz is Bangladesh's largest online shopping marketplace, offering a wide range of products from fashion, electronics, home appliances, beauty products, and more.",
+    "brand_logo": "/images/daraz.png",
+    "shop_Link": "https://www.daraz.com.bd",
+    "category": "E-commerce",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "DARAZ50",
+        "description": "Get 50% off on your first purchase.",
+        "expiry_date": "2025-06-30",
+        "condition": "Applicable on orders above BDT 1000.",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "FREESHIP",
+        "description": "Free shipping on all orders above BDT 500.",
+        "expiry_date": "2025-04-15",
+        "condition": "Valid for select locations only.",
+        "coupon_type": "Shipping"
+      },
+      {
+        "coupon_code": "BUY1GET1",
+        "description": "Buy 1 get 1 free on selected fashion items.",
+        "expiry_date": "2025-05-30",
+        "condition": "Limited time offer, subject to availability.",
+        "coupon_type": "Special Offer"
+      },
+      {
+        "coupon_code": "BDT100OFF",
+        "description": "Get BDT 100 off on orders above BDT 1500.",
+        "expiry_date": "2025-06-01",
+        "condition": "Valid on all categories except electronics.",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "brand_name": "Foodpanda",
+    "rating": 4.6,
+    "description": "Foodpanda is one of the top food delivery services in Bangladesh, bringing delicious meals from the best local restaurants right to your doorstep. ",
+    "brand_logo": "/images/foodpanda.png",
+    "shop_Link": "https://www.foodpanda.com.bd",
+    "category": "Food Delivery",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon_code": "EAT30",
+        "description": "Flat 30% off on selected restaurants.",
+        "expiry_date": "2025-03-31",
+        "condition": "Minimum order BDT 300.",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "FIRSTORDER",
+        "description": "Get 100 BDT off on your first order.",
+        "expiry_date": "2025-12-31",
+        "condition": "Applicable for new users only.",
+        "coupon_type": "New User"
+      },
+      {
+        "coupon_code": "FOODFREE",
+        "description": "Free delivery on orders above BDT 500.",
+        "expiry_date": "2025-06-30",
+        "condition": "Valid for select restaurants.",
+        "coupon_type": "Free Delivery"
+      },
+      {
+        "coupon_code": "FOODFEST",
+        "description": "Up to 50% off on food festival offers.",
+        "expiry_date": "2025-04-15",
+        "condition": "Valid on festival days only.",
+        "coupon_type": "Seasonal"
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "brand_name": "Pickaboo",
+    "rating": 4.5,
+    "description": "Pickaboo is a leading e-commerce platform specializing in electronics and gadgets. With a strong reputation for quality, Pickaboo offers a wide selection of products ranging from smartphones, laptops,etc",
+    "brand_logo": "/images/pickabo.png",
+    "shop_Link": "https://www.pickaboo.com",
+    "category": "Electronics",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "TECH10",
+        "description": "10% off on all tech gadgets.",
+        "expiry_date": "2025-05-20",
+        "condition": "Maximum discount BDT 500.",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "SUMMERSALE",
+        "description": "Up to 30% off on summer sale items.",
+        "expiry_date": "2025-07-01",
+        "condition": "Applicable only on summer sale items.",
+        "coupon_type": "Seasonal"
+      },
+      {
+        "coupon_code": "NEWGADGET15",
+        "description": "Get 15% off on newly launched gadgets.",
+        "expiry_date": "2025-05-01",
+        "condition": "Valid on select products only.",
+        "coupon_type": "New Product"
+      },
+      {
+        "coupon_code": "FLASHDEAL",
+        "description": "Special flash deal: up to 50% off on selected items.",
+        "expiry_date": "2025-06-10",
+        "condition": "Available for a limited time only.",
+        "coupon_type": "Flash Sale"
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "brand_name": "AjkerDeal",
+    "rating": 4.3,
+    "description": "AjkerDeal is a leading e-commerce site in Bangladesh that focuses on daily deals and online shopping for a wide variety of products etc",
+    "brand_logo": "/images/ajkerDeal.png",
+    "shop_Link": "https://www.ajkerdeal.com",
+    "category": "E-commerce",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon_code": "DEAL15",
+        "description": "Flat 15% discount on all items.",
+        "expiry_date": "2025-08-30",
+        "condition": "Minimum order BDT 800.",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "BDT50OFF",
+        "description": "Get BDT 50 off on orders above BDT 600.",
+        "expiry_date": "2025-07-31",
+        "condition": "Valid on all products.",
+        "coupon_type": "Discount"
+      },
+      {
+        "coupon_code": "BUY2GET1",
+        "description": "Buy 2 items and get 1 free.",
+        "expiry_date": "2025-06-30",
+        "condition": "Applicable on select categories.",
+        "coupon_type": "Special Offer"
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "brand_name": "Evaly",
+    "rating": 4.2,
+    "description": "Evaly is one of the fastest-growing e-commerce platforms in Bangladesh, offering a variety of products ranging from electronics, fashion, etc",
+    "brand_logo": "/images/evaly.png",
+    "shop_Link": "https://www.evaly.com.bd",
+    "category": "E-commerce",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "FLASH20",
+        "description": "20% off on flash sales.",
+        "expiry_date": "2025-04-10",
+        "condition": "Limited to first 500 customers.",
+        "coupon_type": "Flash Sale"
+      },
+      {
+        "coupon_code": "EVALY100",
+        "description": "Get BDT 100 off on orders above BDT 1000.",
+        "expiry_date": "2025-05-01",
+        "condition": "Valid on all categories.",
+        "coupon_type": "Discount"
+      }
+    ]
+  },
+  {
+    "_id": "6",
+    "brand_name": "Pathao",
+    "rating": 4.8,
+    "description": "Pathao is a leading ride-sharing service in Bangladesh, also providing food delivery, logistics, and courier services.",
+    "brand_logo": "/images/pathao.png",
+    "shop_Link": "https://www.pathao.com",
+    "category": "Ride Sharing",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon_code": "RIDE50",
+        "description": "Flat 50 BDT off on your first ride.",
+        "expiry_date": "2025-05-01",
+        "condition": "Applicable for new users only.",
+        "coupon_type": "New User"
+      }
+    ]
+  },
+  {
+    "_id": "7",
+    "brand_name": "Uber",
+    "rating": 4.6,
+    "description": "Uber is one of the most trusted ride-sharing platforms worldwide, including in Bangladesh. ",
+    "brand_logo": "/images/uber.png",
+    "shop_Link": "https://www.uber.com",
+    "category": "Ride Sharing",
+    "isSaleOn": false,
+    "coupons": [
+      {
+        "coupon_code": "UBERNEW",
+        "description": "50% off on first 3 rides.",
+        "expiry_date": "2025-06-30",
+        "condition": "Maximum discount BDT 100 per ride.",
+        "coupon_type": "New User"
+      }
+    ]
+  },
+  {
+    "_id": "8",
+    "brand_name": "Bikroy",
+    "rating": 4.4,
+    "description": "Bikroy is Bangladesh’s largest online marketplace for buying and selling used items, including vehicles, electronics, furniture, and more.",
+    "brand_logo": "/images/bikroy.png",
+    "shop_Link": "https://www.bikroy.com",
+    "category": "Marketplace",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "SELLFAST",
+        "description": "Get 20% off on ad promotion services.",
+        "expiry_date": "2025-07-15",
+        "condition": "Valid on premium ads only.",
+        "coupon_type": "Promotion"
+      },
+      {
+        "coupon_code": "BUY1SELL1",
+        "description": "Post one ad and get a second one free.",
+        "expiry_date": "2025-06-30",
+        "condition": "Valid for a limited time.",
+        "coupon_type": "Special Offer"
+      }
+    ]
+  },
+  {
+    "_id": "9",
+    "brand_name": "Daraz Express",
+    "rating": 4.6,
+    "description": "Daraz Express is a logistics service by Daraz, aimed at ensuring quick and reliable deliveries. ",
+    "brand_logo": "/images/darazExpress.png",
+    "shop_Link": "https://www.daraz.com.bd/express",
+    "category": "Logistics",
+    "isSaleOn": true,
+    "coupons": [
+      {
+        "coupon_code": "EXPR1",
+        "description": "Get 10% off on delivery charges.",
+        "expiry_date": "2025-07-31",
+        "condition": "Valid for all orders over BDT 1000.",
+        "coupon_type": "Discount"
+      }
+    ]
+  }
+]
