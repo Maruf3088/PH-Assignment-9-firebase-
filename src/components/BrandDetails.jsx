@@ -25,9 +25,9 @@ const BrandDetails = () => {
   if (!brand) return <div>Loading...</div>; // If brand data is not yet loaded
 
   return (
-    <div className="container mx-auto py-10 my-14">
+    <div  className="container mx-auto py-10 my-14">
       {/* Title and Subtitle Section */}
-      <div className="text-center mb-10">
+      <div data-aos="fade-up" className="text-center mb-10">
         <h1 className="text-4xl font-semibold text-gray-900">
           {brand.brand_name} - Exclusive Coupons
         </h1>
@@ -38,7 +38,7 @@ const BrandDetails = () => {
       </div>
 
       {/* Brand Info Card */}
-      <div className="card bg-base-100 shadow-xl border p-6 mb-10">
+      <div  data-aos="fade-up" data-aos-delay="100" className="card bg-base-100 shadow-xl border p-6 mb-10">
         <div className="flex items-center justify-between">
           {/* Brand Logo */}
           <img
@@ -62,11 +62,11 @@ const BrandDetails = () => {
       </div>
 
       {/* Coupons Section */}
-      <h2 className="text-3xl font-semibold text-center mb-6">
+      <h2 data-aos="fade-up" data-aos-delay="200" className="text-3xl font-semibold text-center mb-6">
         Available Coupons
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div data-aos="fade-up" data-aos-delay="300"  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {brand.coupons.map((coupon) => (
           <div
             key={coupon.coupon_code}
